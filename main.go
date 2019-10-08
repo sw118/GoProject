@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "GoProject/common"
 
 func main() {
-	fmt.Println("hello go")
+	common.Request() //http://localhost:8989/adam
+
 }
