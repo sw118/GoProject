@@ -19,7 +19,7 @@ func Request() {
 func fool(w http.ResponseWriter, r *http.Request) {
 	profile := Profile{0,
 		[]int{2, 3},
-		map[int]string{1: "will", 2: "hello"}}
+		map[int]string{1: "sunwei", 2: "caozhiwei"}}
 	js, err := json.Marshal(profile)
 	if err != nil {
 		panic(err.Error())
